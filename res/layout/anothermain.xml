@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical"
+android:layout_height="wrap_content"
+android:layout_width="fill_parent"
+android:fillViewport="false"
+ >
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:background="#2C24C9"
+   android:orientation="vertical"
+  android:layout_height="fill_parent"
+  
+  >
+  
+  
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+      android:background="#2C24C9">
+    
+     <TextView android:text="Facebook" 
+    android:textSize="30sp"
+    android:textStyle="bold"
+   android:layout_marginTop="5sp"
+    android:layout_gravity="center"
+    android:textColor="#ffffff"
+    android:id="@+id/textView3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" />
+    
+    
+    </LinearLayout>
+  
+  
+  
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FE9A2E"
+     android:padding="10sp"
+     
+    >
+    
+    <TextView 
+    
+  android:gravity="center"
+  android:layout_marginLeft="15sp"
+  android:textColor="#848484"
+    android:text="Welcome  " 
+    android:id="@+id/tv1"
+    android:textStyle="bold"
+    android:textSize="25sp"
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content">
+     
+     </TextView>
+     
+      <TextView 
+  android:text="Username "
+   android:id="@+id/tv2" 
+   android:layout_marginLeft="15sp"
+   android:textColor="#FFFFFF"
+   android:textStyle="bold"
+   android:textSize="20sp"
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content">
+   </TextView>
+     
+  
+  </LinearLayout>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    
+    >
+    
+     <TextView 
+  android:text="Email: "
+  android:textColor="#848484"
+android:layout_marginTop="15sp"
+   android:textStyle="bold"
+   android:textSize="20sp"
+   android:layout_width="wrap_content" 
+   android:layout_height="wrap_content">
+   </TextView>
+      <TextView
+     android:layout_marginTop="15sp"
+       android:id="@+id/tv3" 
+        android:textColor="#FFFFFF"
+   android:textStyle="bold"
+   android:textSize="25sp"
+       android:layout_height="wrap_content" 
+     android:layout_width="fill_parent" 
+       >
+       </TextView>
+    
+  </LinearLayout>
+  
+  
+      <Button android:layout_height="wrap_content" 
+     
+      android:layout_marginTop="150sp"
+      android:text="Update Your Profile" android:id="@+id/b2" android:layout_width="fill_parent" android:textStyle="bold"></Button>
+      <Button android:layout_height="wrap_content" 
+    
+      android:layout_marginTop="20sp"
+      
+      
+      android:text="Logout" android:id="@+id/button1" android:layout_width="fill_parent" android:textStyle="bold"></Button>
+      
+</LinearLayout>
+</ScrollView>

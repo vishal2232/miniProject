@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Facebook</string>
+        <string name="app_name2">Guest</string>
+    <string name="hello">Hello World, login!</string>
+     <string-array name="planets_array">
+    <item>who is your inspiration</item>
+    <item>what is your first mobile number</item>
+    <item>what is your mother maiden name</item>
+    <item>what is your favourite colour</item>
+    
+    
+    </string-array>
+    
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical"
+android:layout_height="wrap_content"
+android:layout_width="fill_parent"
+android:fillViewport="false"
+ >
+ 
+ 
+ 
+ 
+ 
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+ >
+  
+  
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+      android:background="#2C24C9">
+    
+     <TextView android:text="Facebook" 
+    android:textSize="30sp"
+    android:textStyle="bold"
+   android:layout_marginTop="5sp"
+    android:layout_gravity="center"
+    android:textColor="#ffffff"
+    android:id="@+id/textView3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" android:marqueeRepeatLimit="marquee_forever"/>
+    
+    
+    </LinearLayout>
+  
+  
+    <EditText 
+    android:hint="Name"
+    android:layout_marginTop="5sp"
+    android:id="@+id/et1" 
+    android:layout_width="fill_parent" 
+    android:layout_height="50sp">
+    
+    </EditText>
+    
+    <EditText 
+     android:hint="Email"
+    android:layout_marginTop="5sp"
+    android:id="@+id/et2" 
+    android:layout_width="fill_parent" 
+    android:layout_height="50sp">
+    
+    </EditText>
+    
+    <EditText 
+    android:hint="Password"
+    android:layout_marginTop="5sp"
+     android:password="true"
+    android:id="@+id/et3" 
+    android:layout_width="fill_parent" 
+    android:layout_height="50sp">
+    
+    </EditText>
+    
+
+    <EditText 
+    android:hint="Confirm Password"
+     android:password="true"
+    android:layout_marginTop="5sp"
+    android:id="@+id/et4" 
+    android:layout_width="fill_parent" 
+    android:layout_height="50sp">
+    
+    </EditText>
+    
+    <Button    
+     android:layout_marginTop="5sp"
+     android:text="Submit"
+    android:textStyle="bold" 
+    android:id="@+id/b1" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+    </Button>
+   <Button    
+     android:layout_marginTop="5sp"
+     android:text="Home"
+    android:textStyle="bold" 
+    android:id="@+id/b2" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+    </Button>
+    
+</LinearLayout>
+</ScrollView>

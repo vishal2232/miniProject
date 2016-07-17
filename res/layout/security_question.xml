@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  >
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal"
+    android:background="#FE9A2E"
+     android:padding="10sp"
+     
+  >
+  
+  <TextView 
+    
+  android:gravity="center"
+  android:layout_marginLeft="15sp"
+  android:textColor="#848484"
+    android:text="Welcome  " 
+    android:id="@+id/textView1"
+    android:textStyle="bold"
+    android:textSize="25sp"
+     android:layout_width="wrap_content" 
+     android:layout_height="wrap_content">
+     
+     </TextView>
+ <TextView 
+  android:text="user " 
+  android:textStyle="bold"
+    android:textSize="20sp"
+  
+  android:id="@+id/textView_user" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"/>
+
+
+</LinearLayout>  
+   <TextView 
+    android:textStyle="bold"
+    android:textSize="18sp"
+  android:text="Account recovery Section" 
+  android:id="@+id/textView2" android:layout_marginTop="5sp"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content">
+  
+  
+  </TextView>
+  <TextView 
+  android:text="Choose a different one, dnt share it.." 
+  android:textStyle="bold"
+    android:textSize="14sp"
+  android:id="@+id/textView3" android:layout_marginTop="5sp"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content">
+  
+  
+  </TextView>
+  <TextView  android:textStyle="bold"
+    android:textSize="14sp"
+  android:text="Security Question:?" 
+  android:layout_height="wrap_content" android:id="@+id/textView4" android:layout_marginTop="5sp" android:layout_width="wrap_content"></TextView>
+  <Spinner 
+  android:id="@+id/spinner1" 
+  android:layout_width="match_parent" 
+  android:layout_height="wrap_content">
+  </Spinner>
+   <EditText 
+  android:hint="Your Answer "
+      
+      android:layout_marginBottom="10dp"
+      android:layout_marginTop="10sp"
+    android:id="@+id/et1" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+    </EditText>
+   <Button android:text="Submit" 
+   android:id="@+id/b1" 
+   android:textStyle="bold"
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content">
+   </Button>
+  
+  <Button android:text="Skip" 
+  android:textStyle="bold"
+   android:id="@+id/b2" 
+   android:layout_marginTop="10sp"
+   android:layout_width="fill_parent" 
+   android:layout_height="wrap_content">
+   </Button>
+  
+</LinearLayout>

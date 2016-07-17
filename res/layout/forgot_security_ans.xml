@@ -1,0 +1,83 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="5dp"
+  android:orientation="vertical">
+   
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+      android:background="#2C24C9">
+    
+     <TextView android:text="Facebook" 
+    android:textSize="30sp"
+    android:textStyle="bold"
+   android:layout_marginTop="5sp"
+    android:layout_gravity="center"
+    android:textColor="#ffffff"
+    android:id="@+id/textView3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" />
+    
+    
+    </LinearLayout>
+   <TextView android:text="we are not displaying question(Security Reason)" 
+    android:textSize="20sp"
+    android:textStyle="bold"
+   android:layout_marginTop="5sp"
+    
+    
+    android:id="@+id/textView3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" />
+    <TextView android:text="submit your answer only" 
+    android:textSize="17sp"
+    android:textStyle="bold"
+   
+    android:layout_marginTop="10sp"
+    
+    android:id="@+id/textView3" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" />
+    <EditText 
+     android:id="@+id/et1" 
+     android:ems="10" 
+     android:hint="Enter Your Answer"
+     
+    android:layout_marginTop="5sp"
+        android:layout_marginBottom="5sp"  
+    android:layout_width="fill_parent" 
+    android:layout_height="50sp">
+    </EditText>
+    <Button 
+    android:text="Reset Password" 
+    android:id="@+id/b1"
+    android:textStyle="bold"
+     android:layout_width="fill_parent" 
+     
+     android:layout_height="wrap_content">
+     </Button>
+    <Button 
+    android:text="Using Email" 
+    android:id="@+id/b2"
+    android:layout_marginTop="15sp"
+    android:textStyle="bold"
+     android:layout_width="fill_parent" 
+     
+     android:layout_height="wrap_content">
+     </Button>
+    
+     <Button 
+      android:layout_marginTop="20sp"
+    android:text="Home" 
+    android:id="@+id/b3"
+    android:textStyle="bold"
+     android:layout_width="fill_parent" 
+     
+     android:layout_height="wrap_content">
+     </Button>
+     
+</LinearLayout>
